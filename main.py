@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def server_status():
-    return {"message": "Server running 1.3"}
+    return {"message": "Server running 1.4"}
