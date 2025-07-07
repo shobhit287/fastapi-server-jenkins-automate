@@ -2,8 +2,7 @@ version: "3.1"
 
 services:
   fast_api_server:
-    build: .
-    image: fast_api_image
+    image: "shobhit287/fast_api_image:latest"
     ports:
       - "80:8000"
     
